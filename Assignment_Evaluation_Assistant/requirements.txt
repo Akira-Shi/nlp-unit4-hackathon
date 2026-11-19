@@ -1,0 +1,13 @@
+streamlit
+pytesseract
+opencv-python-headless
+pillow
+pandas
+numpy
+scikit-learn
+nltk
+# Tesseract OCR engine must also be installed on the machine:
+#   Windows: https://github.com/UB-Mannheim/tesseract/wiki   (add to PATH)
+#   Linux:   sudo apt install tesseract-ocr
+# Optional fallback OCR engine (used automatically if Tesseract is unavailable):
+# easyocr
